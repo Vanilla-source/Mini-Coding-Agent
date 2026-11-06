@@ -1,0 +1,17 @@
+# 密钥与本地环境
+.env
+.venv/
+venv/
+
+# 运行产物：每次执行的 workspace 和日志都不进版本库
+runs/*
+!runs/.gitkeep
+eval/**/data/
+eval/**/predictions.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/

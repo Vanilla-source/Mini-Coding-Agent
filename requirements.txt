@@ -1,0 +1,12 @@
+openai>=1.40
+python-dotenv>=1.0
+rich>=13.7
+tenacity>=8.5
+pydantic>=2.7
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+pytest>=8.2
+
+# PyTorch 不要写在这里，单独安装 CPU 版（体积大、平台相关）：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
